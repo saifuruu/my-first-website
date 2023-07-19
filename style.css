@@ -67,3 +67,69 @@
     padding: 10px 20px;
     border-radius: 6px;
 }
+
+.instagram-section {
+    text-align: center;
+}
+
+.form-section {
+    text-align: center;
+}
+
+.form-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.form-title span {
+    background: #0D99FF;
+    border: 1px solid;
+}
+
+.form-box input {
+    margin-top: 50px;
+    width: 30%;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-box button {
+    padding: 10px;
+    background: #E55473;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form-section {
+    text-align: center;
+    background: url(assets/images/form-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-title {
+    text-align: center;
+    background: black;
+}
+
+
+.footer-title h2 {
+    color: red;
+    padding-top: 50px;
+}
+
+span.shop {
+    color: white;
+}
+
+.footer-title p {
+    color: white;
+}
+
+.footer-title span {
+    color: beige;
+}
