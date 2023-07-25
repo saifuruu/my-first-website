@@ -1,135 +1,273 @@
-.banner-section {
-    background-color: #FCEEF1;
-    display: flex;
-    height: 500px;
-    padding-top: 100px;
+
+.header-menu ul li {
+    list-style: none;
+    display: inline-block;
 }
 
-.banner-content h1 {
-    margin-left: 150px;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 42px;
-}
-
-.banner-description p {
+.header-menu ul li a {
+    text-decoration: none;
     font-size: 17px;
-    font-weight: 400;
-    margin-left: 150px;
-    width: 62%;
-    padding: 22px 0;
+    font-weight: 500;
+    margin-left: 10px;
 }
 
-.banner-button a {
-    display: inline-block;
-    margin-left: 150px;
-    text-decoration: none;
-    color: #fff;
-    background: #E55473;
-    padding: 10px 20px;
-    border-radius: 6px;
-}
-
-.banner-img {
-    margin-right: 200px;
-}
-
-/* .our-featured */
-
-.our-featured {
-    text-align: center;
-    padding-top: 100px;
-}
-
-.featured-title h1 {
-    margin: 0;
-}
-
-.sale-up-section {
-    display: flex;
-    background: #FEF6F8;
-}
-
-.sale-up-content {
-    margin-left: 150px;
-}
-
-.sale-up-images {
-    margin-right: 150px;
-}
-
-.sale-up-button a {
-    display: inline-block;
-    margin-left: 70px;
-    text-decoration: none;
-    color: #fff;
-    background: #E55473;
-    padding: 10px 20px;
-    border-radius: 6px;
-}
-
-.instagram-section {
-    text-align: center;
-}
-
-.form-section {
-    text-align: center;
-}
-
-.form-title h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0;
-}
-
-.form-title span {
-    background: #0D99FF;
-    border: 1px solid;
-}
-
-.form-box input {
-    margin-top: 50px;
+.header-logo {
+    float: left;
     width: 30%;
+}
+
+.header-menu {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+
+.header-button {
+    display: inline-block;
+    width: 30%;
+}
+
+.header-button a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #ddd;
+    margin-left: 30px;
     padding: 10px;
-    background: #fff;
-    border: none;
     border-radius: 5px;
 }
 
-.form-box button {
-    padding: 10px;
-    background: #E55473;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.form-section {
-    text-align: center;
-    background: url(assets/images/form-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.footer-title {
-    text-align: center;
-    background: black;
-}
-
-
-.footer-title h2 {
+.header-button a span {
     color: red;
-    padding-top: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+    padding: 0 10px;
 }
 
-span.shop {
+.header-area {
+    margin: 0 150px;
+    padding: 10px 0;
+}
+
+
+/* hero-section */
+.hero-section {
+    background: #FBF7FD;
+    margin: 0 150px;
+    padding: 0 40px;
+}
+
+.hero-section-images img {
+    width: 50%;
+}
+
+.hero-section-content {
+    display: inline-block;
+    width: 50%;
+}
+
+.hero-section-images {
+    display: inline-block;
+    width: 49%;
+}
+
+.hero-play-detalis ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.hero-play-detalis ul li i {
+    color: red;
+}
+
+.hero-section-content h1 {
+    color: #BF50D3;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero-button {
+    display: flex;
+}
+.hero-main-btn a {
+    display: inline-block;
+    background: #FF70BB;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
     color: white;
+    font-size: 16px;
+    margin-right: 20px;
 }
-
-.footer-title p {
+.hero-right-btn a {
+    display: inline-block;
+    text-decoration: none;
+    background: #4EC5F7;
+    padding: 10px;
     color: white;
+    border-radius: 5px;
 }
 
-.footer-title span {
-    color: beige;
+/* gamer-section */
+.gamer-section {
+    margin: 0 150px;
+    background: #fff4fc;
 }
+.gamer-image img {
+    width: 72%;
+}
+
+.gamer-image {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.gamer-content {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+.gamer-button a {
+    display: inline-block;
+    background: #FF70BB;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+    .gamer-content h3{
+    color: #BF50D3;
+    font-size: 30px;
+    font-weight: 600;
+    }
+
+    .funny-video-title {
+        text-align: center;
+    }
+    .funny-video-des p {
+        text-align: center;
+    }
+
+
+    .funny-image {
+        display: flex;
+        margin: 0 150px;
+        gap: 10px;
+    }
+    .funny-img1 img {
+        width: 100%;
+        display: inline-block;
+    }
+    .funny-img2 img {
+        width: 100%;
+        display: inline-block;
+    }
+    .funny-img3 img {
+        width: 100%;
+        display: inline-block;
+    }
+    .funny-img4 img {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .funny-video-title span {
+        color: orange;
+        padding-left: 10px;
+    }
+
+    .play-install {
+        margin: 0 150px;
+    }
+    .play-install-text {
+        display: inline-block;
+        width: 40%;
+    }
+    .play-install-img {
+        display: inline-block;
+        width: 55%;
+    }
+    .play-install-img img {
+        width: 56%;
+    }
+
+    img.play-thumb {
+        width: 30%;
+        position: relative;
+        left: -365px;
+        top: 90px;
+    }
+    .play-install-text h2 {
+        color: orange;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    h2.download {
+        color: black;
+        margin: 0;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+
+    .brand-box {
+        margin: 0 150px;
+        display: flex;
+        gap: 150px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .brand-box-two {
+        margin: 0 204px;
+        display: flex;
+        gap: 180px;
+        text-align: center;
+    }
+
+    .footer-section {
+        background: black;
+        height: 400px;
+        padding-top: 100px;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-title ul li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 20px;
+        /* text-align: center; */
+    }
+    .footer-title {
+        text-align: center;
+        color: white;
+    }
+    .footer-icon ul li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 20px;
+    }
+    .footer-logo span {
+        color: white;
+    }
+    .footer-icon {
+        text-align: center;
+        color: white;
+    }
+    .footer-description {
+        color: white;
+        text-align: center;
+    }
+    .footer-description ul li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 20px;
+    }
+    .footer-bottom h6 {
+        color: white;
+        text-align: center;
+        font-size: 16px;
+    }
